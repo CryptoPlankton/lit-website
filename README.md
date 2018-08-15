@@ -1,8 +1,8 @@
-# Vertcoin's Website
+# LIT's Website
 
-> The source files for the Vertcoin website, built with Hugo.
+> The source files for the LIT website, built with Hugo.
 
-Live at https://www.vertcoin.org/.
+Live at https://www.litlightning.org/.
 
 ## Contributing
 
