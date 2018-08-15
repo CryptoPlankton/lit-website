@@ -2745,6 +2745,8 @@ iframe {
     margin-top: 81px;
     position: relative;
     display: block;
+    text-decoration: none !important;
+    color: #333 !important;
 }
 
 .githubCheck:hover {
