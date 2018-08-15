@@ -21,7 +21,7 @@ nav a {
 }
 
 a {
-  font-weight: 700;
+  font-weight: 400;
   /* Web Font */
   font-family: "Montserrat",PingFang SC,Hiragino Sans GB,Heiti SC,Microsoft YaHei,monospace;
   font-style: normal;
@@ -65,12 +65,12 @@ tbody {
 
 
 section {
-  margin-top: 62px;
+  margin-top: 32px;
 }
 
 
 a {
-  color: #048657;
+  color: #000;
   cursor: pointer;
 }
 a:hover, a:active, a:focus {
@@ -80,7 +80,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 800;
 
-  margin: 0 0 1.6em;
+  margin: 0 0 0.25em;
 
 
 
@@ -752,7 +752,7 @@ table {
   padding-right: 30px;
 }
 .wrapper h3 {
-  font-size: 43px;
+  font-size: 123px;
   text-transform: capitalize;
   line-height: 1.4;
 }
@@ -787,13 +787,13 @@ h4 svg {
 }
 
 .wrapper p {
-      font-size: 15px;
-    max-width: 891px;
+ 
+    font-size: 15px;
+    max-width: 601px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     line-height: 1.65;
-
 
 }
 
@@ -2510,11 +2510,11 @@ section.separator-greenLine:before {
 /* Bullet Point */
 
 .bulletPoint {
-  display: flex;
-  max-width: 794px;
-  margin: 0 auto;
-  margin-bottom: 5em;
-  font-size: 15px;
+    display: flex;
+    max-width: 514px;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    font-size: 15px;
 }
 
 .topologylabel {
@@ -2734,4 +2734,20 @@ iframe {
         width: 340px;
         height: 190px; /* 225px */
     }
+}
+
+.githubCheck {
+      border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 81px;
+    position: relative;
+    display: block;
+}
+
+.githubCheck:hover {
+  text-decoration: none;
+  color: initial;
 }
