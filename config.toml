@@ -1,6 +1,6 @@
-baseURL = "https://vertcoin.org/"
+baseURL = "https://litlightning.org/"
 DefaultContentLanguage = "en"
-title = "Vertcoin"
+title = "LIT"
 theme = "elate"
 
 
