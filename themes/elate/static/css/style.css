@@ -122,16 +122,17 @@ h6 {
 .whatsPossible .bulletPoint div {
         margin-bottom: 10px;
     opacity: 1;
-    color: #1717f7;
+    color: #1d1d1d;
     margin-top: 36px;
 }
 
 
 .whatsPossible .bulletPoint svg {
    
-    height: auto;
+        height: auto;
     margin-bottom: 36px;
     margin-top: -28px;
+    width: 37%;
 }
 
 @media screen and (max-width:768px) {
