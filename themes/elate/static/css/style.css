@@ -74,7 +74,7 @@ h6 {
 
 .wrapper p {
     font-size: 13px;
-    max-width: 573px;
+    max-width: 522px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -83,8 +83,8 @@ h6 {
 
 @media screen and (max-width:768px) {
     .wrapper p {
-        padding: 0 16px;
-        font-size: 14px
+        padding: 0 25px;
+        font-size: 13px
     }
 }
 
@@ -98,11 +98,7 @@ h6 {
     }
 }
 
-.wrapper .childController {
-    position: relative;
-    text-align: center;
-    margin: 0 auto
-}
+
 
 .wrapper .inner-wrapper {
     max-width: 1015px;
@@ -115,6 +111,38 @@ h6 {
     margin: 0 auto 4em;
     font-size: 15px
 }
+
+.whatsPossible .bulletPoint {
+     display: block;
+    max-width: none;
+    margin: 0 auto 4em;
+    font-size: 13px
+}
+
+.whatsPossible .bulletPoint div {
+        margin-bottom: 10px;
+    opacity: 1;
+    color: #1717f7;
+    margin-top: 36px;
+}
+
+
+.whatsPossible .bulletPoint svg {
+   
+    height: auto;
+    margin-bottom: 36px;
+    margin-top: -28px;
+}
+
+@media screen and (max-width:768px) {
+.whatsPossible .bulletPoint svg {
+    height: auto;
+    margin-bottom: 36px;
+    margin-top: -8px;
+    width: 100%;
+}
+}
+
 
 .topologylabel {
     margin-top: 15px;
