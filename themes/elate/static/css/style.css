@@ -17,7 +17,8 @@ h6 {
 .githubCheck,
 .wrapper,
 body {
-    position: relative
+    position: relative;
+    margin: 0px;
 }
 
 a {
@@ -78,6 +79,7 @@ h6 {
     margin-right: auto;
     text-align: center;
     line-height: 1.65;
+    min-width: 354px;
 }
 
 @media screen and (max-width:768px) {
