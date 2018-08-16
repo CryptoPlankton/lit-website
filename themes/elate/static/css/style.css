@@ -89,6 +89,12 @@ h6 {
     }
 }
 
+@media screen and (max-width:623px) {
+    .wrapper p {
+        width: 354px;
+    }
+}
+
 .wrapper {
     padding-bottom: 67px
 }
