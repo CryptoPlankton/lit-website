@@ -23,7 +23,7 @@ body {
 
 a {
     font-weight: 400;
-    color: #333
+    color: #0c82b3;
 }
 
 body {
@@ -120,7 +120,7 @@ h6 {
 }
 
 .whatsPossible .bulletPoint {
-     display: block;
+     display: flex;
     max-width: none;
     margin: 0 auto 4em;
     font-size: 13px
