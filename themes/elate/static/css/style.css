@@ -79,7 +79,7 @@ h6 {
     margin-right: auto;
     text-align: center;
     line-height: 1.65;
-    min-width: 354px;
+
 }
 
 @media screen and (max-width:768px) {
@@ -89,11 +89,7 @@ h6 {
     }
 }
 
-@media screen and (max-width:623px) {
-    .wrapper p {
-        width: 354px;
-    }
-}
+
 
 .wrapper {
     padding-bottom: 67px
