@@ -33,7 +33,7 @@
 
 
     [lit_description]
-    other = "Lit is a lightning network implementation separate from LND/Eclair (Bolt Family) so it differs in the way its built. Instead of having a bunch of different lightning networks (one for each coin) lit implements all the coins into a single protocol making a single unified multicoin lightning network, rather than a fragmented subset of lightning networks."
+    other = "Lit is a lightning network implementation separate from LND/Eclair (Bolt Family) meaning it differs in the way its built. Instead of having a bunch of different lightning networks (one for each coin) lit implements all the coins into a single protocol making a single unified multicoin lightning network, rather than a fragmented subset of lightning networks."
 
 
 
